@@ -72,10 +72,6 @@ body {
 
 .dropdownMenu ul li:hover ul.dropdowns{
     display: block;
-<<<<<<< HEAD
-    margin: 0;
-=======
->>>>>>> c9f8f8c5634bde13f82c0a7ee392a9410ca4264c
 }
 
 .dropdownMenu ul li ul.dropdowns li{
@@ -101,14 +97,11 @@ body {
     color: #0ca95d;
 }
 
-<<<<<<< HEAD
 img {
     width: 80px;
     height: 80px;
 }
 
-=======
->>>>>>> c9f8f8c5634bde13f82c0a7ee392a9410ca4264c
 .openedMenu {
     border: none;
 }
@@ -116,7 +109,6 @@ img {
 .dropdownMenu ul li ul.dropdowns a:hover, .dropdownMenu ul li ul.dropdowns a:focus {
     background-color: #ffffff !important;
     color: #02a755;
-<<<<<<< HEAD
 }
 
 .mainNavigation {
@@ -125,6 +117,4 @@ img {
 
 .mainNavigation ul li{
     border-left: 1px solid white;
-=======
->>>>>>> c9f8f8c5634bde13f82c0a7ee392a9410ca4264c
 }
