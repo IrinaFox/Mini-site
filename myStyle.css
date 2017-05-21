@@ -1,0 +1,130 @@
+body {
+    background-color: #bed7f2;
+}
+
+.dropdownMenu {
+    background-color: white;
+}
+
+.dropdownMenu ul li{
+    border: 1px solid #bed7f2;
+}
+
+.dropdownMenu ul li a{
+    color: black;
+}
+
+.dropdownMenu .iconAdjust{
+    padding-top: 10px;
+    color: #e7e7e7;
+    padding-right: 10px;
+}
+
+.dropdownMenu .iconAdjust:hover {
+    color: #ffffff;
+}
+
+.dropdownMenu ul.active {
+    max-height: 500px;
+    transition: max-height 1s 0.1s;
+}
+.dropdownMenu ul li a {
+    display:block;
+}
+
+.dropdownMenu ul li a:hover, .dropdownMenu ul li a:focus {
+    background-color: #02a755 !important;
+    color: #ffffff;
+}
+
+.dropdownMenu a{
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.dropdownMenu ul li a:hover{
+    color: white;
+    background: #939393;
+}
+
+.dropdownMenu ul li ul.dropdowns {
+    min-width: 100%;
+    background: rgba(12, 169, 93, 0.90);
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 100%;
+    top: -40px;
+}
+
+.dropdownMenu ul li ul.dropdowns li{
+   border: none;
+}
+
+.dropdownMenu ul li:hover ul.dropdowns{
+    display: block;
+<<<<<<< HEAD
+    margin: 0;
+=======
+>>>>>>> c9f8f8c5634bde13f82c0a7ee392a9410ca4264c
+}
+
+.dropdownMenu ul li ul.dropdowns li{
+    display: block;
+}
+.dropdownMenu .adjust{
+    width: 293px !important;
+}
+
+.iconConnection {
+    color: #0ea95e;
+}
+
+.mainNavigation ul li:hover, .mainNavigation ul li a:focus {
+    background-color: #febe12;
+}
+
+.openedMenu ul li a{
+     color: white;
+}
+.openedMenu ul li a:hover{
+    background-color: white !importantб;
+    color: #0ca95d;
+}
+
+<<<<<<< HEAD
+img {
+    width: 80px;
+    height: 80px;
+}
+
+=======
+>>>>>>> c9f8f8c5634bde13f82c0a7ee392a9410ca4264c
+.openedMenu {
+    border: none;
+}
+
+.dropdownMenu ul li ul.dropdowns a:hover, .dropdownMenu ul li ul.dropdowns a:focus {
+    background-color: #ffffff !important;
+    color: #02a755;
+<<<<<<< HEAD
+}
+
+.mainNavigation {
+    background-color: #e7e7e7;
+}
+
+.mainNavigation ul li{
+    border-left: 1px solid white;
+=======
+>>>>>>> c9f8f8c5634bde13f82c0a7ee392a9410ca4264c
+}
