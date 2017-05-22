@@ -1,4 +1,4 @@
-body {
+﻿body {
     background-color: #bed7f2;
 }
 
@@ -33,13 +33,13 @@ body {
 }
 
 .dropdownMenu ul li a:hover, .dropdownMenu ul li a:focus {
-    background-color: #02a755 !important;
+    background-color: #02a755;
     color: #ffffff;
 }
 
 .dropdownMenu a{
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
@@ -47,8 +47,8 @@ body {
 }
 
 .nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
 }
 
 .dropdownMenu ul li a:hover{
@@ -57,11 +57,10 @@ body {
 }
 
 .dropdownMenu ul li ul.dropdowns {
-    min-width: 100%;
+    width: 350px;
     background: rgba(12, 169, 93, 0.90);
     display: none;
     position: absolute;
-    z-index: 999;
     left: 100%;
     top: -40px;
 }
@@ -78,7 +77,7 @@ body {
     display: block;
 }
 .dropdownMenu .adjust{
-    width: 293px !important;
+    width: 293px;
 }
 
 .iconConnection {
@@ -93,7 +92,7 @@ body {
      color: white;
 }
 .openedMenu ul li a:hover{
-    background-color: white !importantб;
+    background-color: white;
     color: #0ca95d;
 }
 
@@ -107,7 +106,7 @@ img {
 }
 
 .dropdownMenu ul li ul.dropdowns a:hover, .dropdownMenu ul li ul.dropdowns a:focus {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
     color: #02a755;
 }
 
