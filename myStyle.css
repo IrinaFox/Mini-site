@@ -124,7 +124,7 @@ img {
     padding: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-height: 800px) {
     ::-webkit-scrollbar
     {
         width: 12px;
